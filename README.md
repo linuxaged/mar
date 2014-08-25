@@ -1,6 +1,9 @@
-mar
+Mar
 ===
 
-Learn to implement a language
+Learn to implement a toy language.
 
-  clang++ -g -O3 main.cpp `llvm-config --cppflags --ldflags --libs core` -o main
+Build
+===
+
+	clang++ -g -O3 main.cpp `llvm-config --cppflags --ldflags --libs core` -o main
